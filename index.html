@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Question For You...</title>
+    <title>Một câu hỏi dành cho em...</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <style>
         :root {
@@ -227,40 +227,40 @@
     <canvas id="canvas-container"></canvas>
 
     <div id="task-1-ui">
-        <h2>Catch the golden pieces of my heart: <span id="score">0</span> / 3</h2>
+        <h2>Hãy bắt lấy những mảnh ghép trái tim anh: <span id="score">0</span> / 3</h2>
     </div>
 
     <div id="long-message" class="glass-panel">
-        <p>From the moment you walked into my life, everything changed. The colors got brighter, the laughs got louder, and the quiet moments became my favorite parts of the day. You've shown me a kind of love I only ever thought existed in movies. You are my best friend, my confidant, and the most beautiful soul I have ever known. Every day with you is a gift, and I never want to stop unwrapping it.</p>
-        <button id="btn-continue" class="btn-primary">Continue ❤️</button>
+        <p>Kể từ khoảnh khắc em bước vào cuộc đời anh, mọi thứ dường như đã thay đổi hoàn toàn. Thế giới trở nên rực rỡ hơn, những nụ cười thêm rộn rã, và cả những phút giây bình yên bên em cũng trở thành khoảnh khắc anh trân quý nhất mỗi ngày. Em cho anh cảm nhận một tình yêu mà ngỡ như chỉ có trong phim ảnh. Em là người bạn tri kỷ, là nơi anh luôn tin tưởng sẻ chia, và là tâm hồn tuyệt vời nhất mà anh từng biết. Mỗi ngày có em đều là một món quà vô giá mà anh luôn muốn nâng niu mãi mãi.</p>
+        <button id="btn-continue" class="btn-primary">Tiếp tục ❤️</button>
     </div>
 
     <div id="task-2-ui">
-        <h2>Tap to fill my heart with love</h2>
+        <h2>Chạm để lấp đầy trái tim bằng tình yêu nhé</h2>
         <div id="giant-heart" class="giant-heart"></div>
     </div>
 
     <div id="proposal-card" class="glass-panel">
-        <h1>You are my greatest adventure, my safest home, and my one true love. Will you make me the happiest person in the universe and marry me? <span id="receiver-name-display"></span></h1>
+        <h1>Em là chuyến phiêu lưu tuyệt vời nhất, là bến đỗ bình yên nhất và là tình yêu duy nhất của đời anh. Em có đồng ý làm người hạnh phúc nhất thế gian và lấy anh nhé, <span id="receiver-name-display"></span>?</h1>
         <div class="btn-container">
-            <button id="btn-yes" class="btn-primary">Yes, I will</button>
-            <button id="btn-no" style="right: 0;">No</button>
+            <button id="btn-yes" class="btn-primary">Em đồng ý</button>
+            <button id="btn-no" style="right: 0;">Không</button>
         </div>
     </div>
 
     <div id="success-message">
         <div id="falling-content">
-            <h1 id="final-text">I Love You, <span id="receiver-name-display"></span>! ❤️</h1>
-            <p id="sender-text">Yours forever, <span id="sender-name-display"></span></p>
+            <h1 id="final-text">Anh Yêu Em, <span id="receiver-name-display"></span>! ❤️</h1>
+            <p id="sender-text">Mãi mãi yêu em, <span id="sender-name-display"></span></p>
         </div>
     </div>
 
     <script>
         // =======================================================
-        // 💌 EDIT YOUR NAMES HERE 💌
+        // 💌 CHỈNH SỬA TÊN Ở ĐÂY 💌
         // =======================================================
-        const RECEIVER_NAME = "Ju"; // The person receiving it
-        const SENDER_NAME = "Sapthesh";   // The person sending it
+        const RECEIVER_NAME = "Ju"; // Tên người nhận
+        const SENDER_NAME = "Sapthesh";   // Tên người gửi
         // =======================================================
 
         // Inject names into the final screen
